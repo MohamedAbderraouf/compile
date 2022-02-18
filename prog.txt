@@ -1,0 +1,42 @@
+IDENTIFICATION DIVISION. 
+PROGRAM-ID. An.
+
+DATA DIVISION. 
+WORKING-STORAGE SECTION. 
+
+No | Ne  INTEGER.
+Ab FLOAT.
+Str STRING.
+
+Idg LINE 2 , SIZE 2 INTEGER.
+
+CONST Tf = "string".
+CONST Ts = 12,23.
+CONST Td = 2.
+CONST Tp = 'd'.
+
+
+CONST Re INTEGER.
+
+PROCEDURE DIVISION. 
+
+No= 1+2-(3*2/(1-1)).
+
+Str = "dsd" .
+
+IF ((Ts.G.Ts).AND.(NOT Ts.G.Ts)): 
+Ab=12,44.
+DISPLAY("hello # $ world":Tf|No).
+ ELSE:
+ACCEPT("$":@No).
+END. 
+
+DISPLAY("hello % $ world":Ts|No).
+
+
+MOVE Ne to Ne
+ ACCEPT("$": @ No). 
+END.
+
+
+STOP RUN.
